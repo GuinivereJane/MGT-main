@@ -2,13 +2,13 @@
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class MGTActorSheet extends ActorSheet {
+export class MGT-mainActorSheet extends ActorSheet {
 
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["MGT", "sheet", "actor"],
-      template: "systems/MGT/templates/actor/actor-sheet.html",
+      classes: ["MGT-main", "sheet", "actor"],
+      template: "systems/MGT-main/templates/actor/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]

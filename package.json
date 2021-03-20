@@ -1,7 +1,7 @@
 {
-  "name": "MGT",
+  "name": "MGT-main",
   "version": "1.0.0",
-  "description": "CSS compiler for the MGT system",
+  "description": "CSS compiler for the MGT-main system",
   "scripts": {
     "build": "gulp",
     "compile": "gulp css",

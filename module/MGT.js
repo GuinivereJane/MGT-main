@@ -1,14 +1,14 @@
 // Import Modules
-import { MGTActor } from "./actor/actor.js";
-import { MGTActorSheet } from "./actor/actor-sheet.js";
-import { MGTItem } from "./item/item.js";
-import { MGTItemSheet } from "./item/item-sheet.js";
+import { MGT-mainActor } from "./actor/actor.js";
+import { MGT-mainActorSheet } from "./actor/actor-sheet.js";
+import { MGT-mainItem } from "./item/item.js";
+import { MGT-mainItemSheet } from "./item/item-sheet.js";
 
 Hooks.once('init', async function() {
 
-  game.MGT = {
-    MGTActor,
-    MGTItem
+  game.MGT-main = {
+    MGT-mainActor,
+    MGT-mainItem
   };
 
   /**
@@ -21,14 +21,14 @@ Hooks.once('init', async function() {
   };
 
   // Define custom Entity classes
-  CONFIG.Actor.entityClass = MGTActor;
-  CONFIG.Item.entityClass = MGTItem;
+  CONFIG.Actor.entityClass = MGT-mainActor;
+  CONFIG.Item.entityClass = MGT-mainItem;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("MGT", MGTActorSheet, { makeDefault: true });
+  Actors.registerSheet("MGT-main", MGT-mainActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("MGT", MGTItemSheet, { makeDefault: true });
+  Items.registerSheet("MGT-main", MGT-mainItemSheet, { makeDefault: true });
 
   // If you need to add Handlebars helpers, here are a few useful examples:
   Handlebars.registerHelper('concat', function() {

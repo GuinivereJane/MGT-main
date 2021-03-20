@@ -1,14 +1,14 @@
 {
-  "name": "MGT",
-  "title": "MGT",
-  "description": "The MGT system for FoundryVTT!",
+  "name": "MGT-main",
+  "title": "MGT-main",
+  "description": "The MGT-main system for FoundryVTT!",
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "0.8.0",
   "templateVersion": 2,
   "author": "Guin Kellam",
-  "esmodules": ["module/MGT.js"],
-  "styles": ["css/MGT.css"],
+  "esmodules": ["module/MGT-main.js"],
+  "styles": ["css/MGT-main.css"],
   "scripts": [],
   "packs": [],
   "languages": [
@@ -23,7 +23,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/GuinivereJane/MGT-main/master/system.json",
-  "download": "https://github.com/GuinivereJane/MGT-main/archive/refs/heads/master.zip",
+  "manifest": "https://raw.githubusercontent.com/GuinivereJane/MGT-main-main/master/system.json",
+  "download": "https://github.com/GuinivereJane/MGT-main-main/archive/refs/heads/master.zip",
   "license": "LICENSE.txt"
 }
