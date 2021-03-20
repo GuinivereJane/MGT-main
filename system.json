@@ -22,7 +22,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
+  "url": "",   
   "manifest": "https://raw.githubusercontent.com/GuinivereJane/MGT-main/master/system.json",
   "download": "https://github.com/GuinivereJane/MGT-main/archive/refs/heads/master.zip",
   "license": "LICENSE.txt"
