@@ -24,22 +24,25 @@
         }
       },
       "abilities": {
-        "str": {
+        "strength": {
           "value": 10
         },
-        "dex": {
+        "dexterity": {
           "value": 10
         },
-        "con": {
+        "endurance": {
           "value": 10
         },
-        "int": {
+        "intellect": {
           "value": 10
         },
-        "wis": {
+        "education": {
           "value": 10
         },
-        "cha": {
+        "social": {
+          "value": 10
+        },
+        "psi": {
           "value": 10
         }
       }
