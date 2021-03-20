@@ -23,7 +23,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/GuinivereJane/MGT/main/MGT/system.json",
-  "download": "https://github.com/GuinivereJane/MGT/archive/refs/heads/main.zip",
+  "manifest": "https://github.com/GuinivereJane/MGT-main/blob/master/system.json",
+  "download": "https://github.com/GuinivereJane/MGT-main/archive/refs/heads/master.zip",
   "license": "LICENSE.txt"
 }
