@@ -114,12 +114,12 @@
   justify-content: space-between;
 }
 
-/* Styles limited to MGT-main sheets */
-.MGT-main .item-form {
+/* Styles limited to MGT sheets */
+.MGT .item-form {
   font-family: "Roboto", sans-serif;
 }
 
-.MGT-main .sheet-header {
+.MGT .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
   flex: 0 0 210px;
@@ -139,7 +139,7 @@
   margin-bottom: 10px;
 }
 
-.MGT-main .sheet-header .profile-img {
+.MGT .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
@@ -147,100 +147,100 @@
   margin-right: 10px;
 }
 
-.MGT-main .sheet-header .header-fields {
+.MGT .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.MGT-main .sheet-header h1.charname {
+.MGT .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
 
-.MGT-main .sheet-header h1.charname input {
+.MGT .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-.MGT-main .sheet-tabs {
+.MGT .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.MGT-main .sheet-body,
-.MGT-main .sheet-body .tab,
-.MGT-main .sheet-body .tab .editor {
+.MGT .sheet-body,
+.MGT .sheet-body .tab,
+.MGT .sheet-body .tab .editor {
   height: 100%;
 }
 
-.MGT-main .tox .tox-editor-container {
+.MGT .tox .tox-editor-container {
   background: #fff;
 }
 
-.MGT-main .tox .tox-edit-area {
+.MGT .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.MGT-main .resource-label {
+.MGT .resource-label {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.MGT-main .tabs {
+.MGT .tabs {
   height: 40px;
   border-top: 1px solid #AAA;
   border-bottom: 1px solid #AAA;
 }
 
-.MGT-main .tabs .item {
+.MGT .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
 
-.MGT-main .tabs .item.active {
+.MGT .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
 
-.MGT-main .items-list {
+.MGT .items-list {
   list-style: none;
   margin: 7px 0;
   padding: 0;
   overflow-y: auto;
 }
 
-.MGT-main .items-list .item-header {
+.MGT .items-list .item-header {
   font-weight: bold;
 }
 
-.MGT-main .items-list .item {
+.MGT .items-list .item {
   height: 30px;
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #BBB;
 }
 
-.MGT-main .items-list .item .item-image {
+.MGT .items-list .item .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 24px;
   flex: 0 0 24px;
   margin-right: 5px;
 }
 
-.MGT-main .items-list .item img {
+.MGT .items-list .item img {
   display: block;
 }
 
-.MGT-main .items-list .item-name {
+.MGT .items-list .item-name {
   margin: 0;
 }
 
-.MGT-main .items-list .item-controls {
+.MGT .items-list .item-controls {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 86px;
   flex: 0 0 86px;
