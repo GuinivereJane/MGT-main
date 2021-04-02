@@ -2,7 +2,7 @@
   "name": "MGT",
   "title": "MGT",
   "description": "The MGT system for FoundryVTT!",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "0.8.1",
   "templateVersion": 2,
