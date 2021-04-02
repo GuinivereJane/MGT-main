@@ -2,63 +2,13 @@
   "Actor": {
     "types": ["character"],
     "templates": {
-      "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
-        },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        }
-      }
-    },
-    "character": {
-      "templates": ["base"],
-      "biography": "",
-      "attributes": {
-        "level": {
-          "value": 1
-        }
-      },
-      "abilities": {
-        "strength": {
-          "value": 10
-        },
-        "dexterity": {
-          "value": 10
-        },
-        "endurance": {
-          "value": 10
-        },
-        "intellect": {
-          "value": 10
-        },
-        "education": {
-          "value": 10
-        },
-        "social": {
-          "value": 10
-        },
-        "psi": {
-          "value": 10
-        }
-      }
+      "base": {}
     }
   },
   "Item": {
     "types": ["item"],
     "templates": {
-      "base": {
-        "description": ""
-      }
-    },
-    "item": {
-      "templates": ["base"],
-      "quantity": 1,
-      "weight": 0
+      "base": {}
     }
   }
 }
