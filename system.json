@@ -4,7 +4,7 @@
   "description": "The MGT system for FoundryVTT!",
   "version": "1.0.2",
   "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.1",
   "templateVersion": 2,
   "author": "Guin Kellam",
   "esmodules": ["module/MGT.js"],
